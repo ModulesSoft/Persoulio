@@ -1,0 +1,133 @@
+@font-face {
+    font-family: ghasem;
+    src: url('../fonts/ghasem.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSansWeb.ttf');
+}
+
+body{
+    font-family: IRANSans;
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+}
+
+/*over ride part*/
+.container-fluid{
+    padding: 0px;
+}
+.row{
+    padding: 0px;
+}
+.add_padding{
+    padding: 15px;
+}
+
+/*top part og the page header*/
+.top_part{
+    font-family: ghasem;
+    background-color: #32245f;
+    height: 10vh;
+    text-align: center;
+    color: #f7f7f7;
+    padding: 10px;
+    font-size: 34px;
+    z-index: 2222222222222222;
+}
+
+.box{
+    width: 60vw;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.box_top{
+    /*background-image: url("../images/result.PNG");*/
+    /*width: ;*/
+    height: 50vh;
+    background-size: cover;
+}
+
+.each_result{
+    text-align: justify;
+    direction: rtl;
+
+}
+
+.each_result h2{
+    background-color: #32245f;
+    width: 200px;
+    color: #f7f7f7;
+    height: 5vh;
+    font-size: 2vh;
+    padding: 1.5vh;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.result_detail{
+    border-top: solid #32245f 2px;
+    border-bottom: solid #32245f 2px;
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.read-more-state {
+    display: none;
+}
+
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+    content: url("../images/arrow_right.png");
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: url("../images/arrow_down.png");
+}
+read-more-trigger img{
+    width: 20px;
+    height: 20px;
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    position: absolute;
+    /*float: left;*/
+    left: 10px;
+    top: 35px;
+    /*display: inline-block;*/
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    /*border: 1px solid #ddd;*/
+    /*border-radius: .25em;*/
+}
+
+@media screen and (max-width: 768px) {
+    .each_result h2{
+        width: 40vw;
+    }
+    .box{
+        width: 90vw;
+        margin: auto;
+    }
+}

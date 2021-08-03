@@ -1,0 +1,233 @@
+@font-face {
+    font-family: ghasem;
+    src: url('../fonts/ghasem.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSansWeb.ttf');
+}
+
+body{
+    font-family: IRANSans;
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    /*background-image: url("../images/back.jpg");*/
+    /*background-size: cover;*/
+    color: #32245f;
+}
+
+/*over ride part*/
+.container-fluid{
+    padding: 0px;
+    overflow-y: hidden;
+    height: 100vh;
+    position: relative;
+
+}
+.row{
+    padding: 0px;
+}
+.add_padding{
+    padding: 15px;
+}
+
+/*top part og the page header*/
+.top_part{
+    font-family: ghasem;
+    background-color: #32245f;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    color: #f7f7f7;
+    padding: 10px;
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+
+.topic{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
+    border-top: solid #d4d4d4 1px;
+    border-bottom: solid #d4d4d4 1px;
+    font-size: 14px;
+    text-align: center;
+    color: #d4d4d4;
+
+}
+
+.topic h2{
+    font-size: 14px;
+    padding: 10px;
+    margin: 0;
+}
+
+.passes{
+    height: 70vh;
+    overflow-y: hidden;
+}
+
+.next_but{
+    background-image: url("../images/right.png");
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 10vh;
+    cursor: pointer;
+}
+
+.up_but{
+    background-image: url("../images/up.png");
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.phone{
+    background-color: #afb0b4;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    width: 100vw;
+    height: 85vh;
+    overflow-y: hidden;
+    margin-bottom: -75vh;
+    padding-top: 15vh;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow-x: hidden;
+
+}
+
+.phone.toggled{
+    margin-bottom: 0;
+    padding-top: 12vh;
+
+}
+
+.topic_4{
+    width: 70%;
+    margin: auto;
+    border-top: solid #d4d4d4 1px;
+    border-bottom: solid #d4d4d4 1px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.topic_4  h2{
+    font-size: 14px;
+}
+
+.code_but{
+    background-color: #fcb630;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+    border:solid #ffffff 1px;
+    color: white;
+    padding: 10px  20px 10px 20px;
+}
+
+#end_part{
+    background-color: #3b0069;
+    height: 80vh;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    z-index: 100;
+    color: white;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-bottom: -75vh;
+    padding-top: 5vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#end_part.toggled{
+    margin-bottom: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid{
+        height: 88vh;
+    }
+    .top_part{
+        margin-bottom: 5%;
+    }
+    .topic{
+        margin-bottom: 1px;
+    }
+    .next_but{
+        margin-top: 1vh;
+    }
+}
+
+/*yousef*/
+div.combobox {
+    height: 50px;
+    margin-top: 70px;
+}
+
+div.combobox {
+    position: relative;
+    zoom: 1
+}
+
+div.combobox div.dropdownlist {
+    display: none;
+    border: solid 1px #000;
+    background-color: #fff;
+    height: 160px;
+    overflow: auto;
+    position: absolute;
+    top: 3em;
+    right: 0px;
+    z-index: 10000000;
+}
+
+div.combobox div.dropdownlist a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 1px;
+    cursor: default;
+}
+
+div.combobox div.dropdownlist a.light {
+    color: #fff;
+    background-color: #007
+}
+
+div.combobox div.dropdownlist, input {
+    font-family: Tahoma;
+}
+
+div.combobox input {
+    float: left;
+    border: solid 1px #ccc;
+    height: 1em
+}
+
+div.combobox span {
+    border: solid 1px #ccc;
+    background: #fff;
+    width: 16px;
+    height: 1em;
+    float: left;
+    text-align: left;
+    border: none;
+    cursor: default
+}

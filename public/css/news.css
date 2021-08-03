@@ -1,0 +1,78 @@
+@font-face {
+    font-family: ghasem;
+    src: url('../fonts/ghasem.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSansWeb.ttf');
+}
+
+body{
+    font-family: IRANSans;
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    /*background-image: url("../images/back.jpg");*/
+    /*background-size: cover;*/
+    -webkit-overflow-scrolling: touch;
+
+    color: #32245f;
+}
+
+/*over ride part*/
+.container-fluid{
+    padding: 0px;
+}
+.row{
+    padding: 0px;
+}
+.add_padding{
+    padding: 15px;
+}
+
+/*top part og the page header*/
+.top_part{
+    font-family: ghasem;
+    background-color: #32245f;
+    height: 10vh;
+    text-align: center;
+    color: #f7f7f7;
+    padding: 10px;
+    font-size: 34px;
+}
+
+.right_news{
+    padding: 20px;
+}
+
+.right_news_img{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    background-size: cover;
+    padding: 10px;
+    border: solid #32245f 5px;
+}
+
+.news_detail{
+    padding-top: 20px;
+    direction: rtl;
+    text-align: justify;
+}
+
+.done{
+    border: solid #32245f 1px;
+    margin-top: auto;
+    cursor: pointer;
+    float: right;
+}
+
+.done:hover{
+    color: #f7f7f7;
+    background-color: #32245f;
+}
+
+.done.active{
+    color: #f7f7f7;
+    background-color: #32245f;
+}

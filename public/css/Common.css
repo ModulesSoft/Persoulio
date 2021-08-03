@@ -1,0 +1,386 @@
+.logo {
+    margin-top: 20% !important;
+    height: 17vh;
+}
+
+.sign-in-inputs {
+    min-height: 25vh;
+}
+
+.btn-group {
+    margin-top: 11% !important;
+    max-height: 25%;
+    min-height: 25%;
+}
+
+@media only screen and (min-width:767px) {
+    .logo {
+        margin-top: 100px !important;
+        height: 200px !important;
+    }
+    .sign-in-inputs {
+        margin-top: 0 !important;
+    }
+
+    .btn-group {
+        margin-top: 5% !important;
+        max-height: 25%;
+        min-height: 25%;
+    }
+}
+
+.myForm {
+    margin-top: 10%;
+}
+
+.round-image {
+    width: 45%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+@media only screen and (min-width:767px) {
+    .round-image {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .myForm {
+        margin-top: 0 !important;
+    }
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.mainRow {
+    position: fixed;
+    overflow: auto;
+    /*direction: ltr;*/
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    /*background-image: url('../images/smallBack.jpg');*/
+    background-size: cover;
+}
+
+
+.persoulio-title {
+    color: white;
+    min-width: 100%;
+    background-color: #1e0035;
+    margin-top: 0 !important;
+    position: fixed !important;
+    z-index: 100000000;
+    font-family: ghasem !important;
+}
+
+.persoulio-title > h3 {
+    min-height: 100%;
+    max-height: 100%;
+    font-size: 36px !important;
+    margin: 3% !important;
+}
+
+@media only screen and (min-width: 767px) {
+    .persoulio-title {
+        display: none;
+    }
+    .mainRow {
+        /*background-image: url('../images/bigBack.png') !important;*/
+    }
+    .myPopUp > h4 {
+        margin-top: 5% !important;
+    }
+    .myPopUp {
+        left: 30% !important;
+        right: 30% !important;
+        top: 30% !important;
+    }
+    .dark2 {
+        top: 0 !important;
+    }
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'IRANSansWeb';
+    src: url('../fonts/IRANSansWeb.eot');
+    src: url('../fonts/IRANSansWeb.eot') format('embedded-opentype'), url('../fonts/IRANSansWeb.woff2') format('woff2'), url('../fonts/IRANSansWeb.woff') format('woff'), url('../fonts/IRANSansWeb.ttf') ;
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'ghasem';
+    src: url('../fonts/ghasem.ttf');
+}
+
+body{
+    font-family: 'IRANSansWeb' !important;
+    direction: rtl !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+.dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(21, 0, 44, 0.75);
+    z-index: 1000000;
+}
+
+.myPopUp {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    height: fit-content;
+    max-height: 40%;
+    overflow: auto;
+    right: 10%;
+    z-index: 8;
+    width: auto;
+    background-color: #1e0035;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.myPopUp > h4 {
+    color: white;
+    margin-top: 35%
+}
+
+.bigMyPopUp {
+    left: 5% !important;
+    right: 5% !important;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .bigMyPopUp {
+        left: 30% !important;
+        right: 30% !important;
+    }
+}
+
+/*.firstInput {*/
+    /*margin-top: 10%;*/
+/*}*/
+
+/*@media only screen and (min-width:767px) {*/
+    /*.firstInput {*/
+        /*margin-top: 50px !important;*/
+    /*}*/
+/*}*/
+
+.myOption {
+    background-color: #c7c7c8;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+select:active, select:hover {
+    outline: none;
+}
+
+.myInput {
+    font-family: IRANSansWeb !important;
+    background-color: transparent !important;
+    /*direction: ltr;*/
+    /*color: #1e0035 !important;*/
+    text-align: center;
+    padding: 10px;
+    border: none !important;
+    min-width: 100%;
+    max-width: 100%;
+    font-size: 18px;
+    /*direction: rtl;*/
+}
+.myInput2 {
+    font-family: IRANSansWeb !important;
+    background-color: #f0fafb;
+    /*direction: rtl;*/
+    /*color: #1e0035 !important;*/
+    text-align: center;
+    padding: 10px;
+    border: none !important;
+    min-width: 100%;
+    max-width: 100%;
+    font-size: 18px;
+}
+
+.border {
+    min-width: 100%;
+    max-width: 100%;
+    border-bottom: 2px solid #1e0035 !important;
+}
+
+@media only screen and (min-width:767px) {
+    .myInput {
+        font-size: 20px !important;
+        min-width: 400px !important;
+        max-width: 400px !important;
+    }
+
+    .border {
+        min-width: 400px !important;
+        max-width: 400px !important;
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #1e0035;
+}
+
+::-moz-placeholder {
+    color: #1e0035;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #1e0035;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #1e0035;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #1e0035;
+}
+
+.myInput:hover{
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.myInput:focus{
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.myBtn {
+    font-family: IRANSansWeb !important;
+    min-width: 85%;
+    padding: 10px !important;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px !important;
+    border: none !important;
+    background-color: #c80054 !important;
+}
+
+@media only screen and (min-width:767px) {
+    .myBtn {
+        margin-top: 50px !important;
+        min-width: 200px !important;
+        font-size: 20px !important
+    }
+}
+
+.myBtn2 {
+    font-family: IRANSansWeb !important;
+    min-width: 85%;
+    padding: 10px !important;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px !important;
+    border: none !important;
+    background-color: #c80054 !important;
+}
+
+@media only screen and (min-width:767px) {
+    .myBtn2 {
+        margin-top: 10px !important;
+        min-width: 200px !important;
+        padding: 5px !important;
+        font-size: 14px !important
+    }
+}
+
+.warning {
+    color: white;
+    margin-top: 10%;
+    font-size: 13px;
+}
+
+@media only screen and (min-width:767px) {
+    .warning {
+        margin-top: 50px !important;
+        font-size: 15px !important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/contentManager.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.full.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- <div style="color: white" class="col-xs-12"> -->
+            <div class="col-xs-12">
+                <div class="col-xs-12">
+                    <h4>مدیریت برنامه ها</h4>
+                </div>
+                    <div class="col-xs-3">
+                        <label for="title">تیتر</label>
+                            <input id="title" type="input" name="titlename" value="titleval" checked>
+                    </div>
+            </div>
+            <div class="col-xs-12">
+                <!-- </div> -->
+                <label for="picture">عکس</label>
+                <input id="picture" style="text-align: center !important; text-align-last: center !important; color: white !important; font-size: 10px !important;" type="file" name="photo" class="myInput">
+                    <div class="col-xs-12">
+                    <label for="text">متن</label>
+                        <input id="text" type="text" name="textname" value="textval" checked>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="col-xs-12">
+                    <h4>انتخاب تیپ</h4>
+                </div>
+                    <div class="col-xs-6">
+                    <label for="selectbox">تیپ</label>
+                        <select id="selectbox">
+                        	<option id='op1'>تیپ اول</option>
+                        	<option id='op2'>تیپ دوم</option>
+                        	<option id='op3'>تیپ سوم</option>
+                        	<option id='op4'>تا تیپ آخر</option>
+                        </select>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="col-xs-12">
+                    <h4>زمان</h4>
+                </div>
+                    <div class="col-xs-6">
+                    <label for="days">روزها</label>
+                        <div id="days">
+                        	<label for="day1">روز اول</label>
+                        	<input id="day1" type="input" name="day1" value="day1val" checked>
+                        	<br>
+                        	<label for="day2">روز دوم</label>
+                        	<input id="day2" type="input" name="day1" value="day2val" checked>
+                        	<br>
+                        	<label for="day3">روز سوم</label>
+                        	<input id="day3" type="input" name="day1" value="day3val" checked>
+                        	<br>
+                        	<label for="day4">روز چهارم</label>
+                        	<input id="day4" type="input" name="day1" value="day4val" checked>
+                        	<br>
+                        	<label for="day5">روز پنجم</label>
+                        	<input id="day5" type="input" name="day1" value="day5val" checked>
+                        	<br>
+                        	<label for="day6">روز ششم</label>
+                        	<input id="day6" type="input" name="day1" value="day6val" checked>
+                        	<br>
+                        	<label for="day7">روز هفتم</label>
+                        	<input id="day7" type="input" name="day1" value="day7val" checked>
+                        </div>
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success" style="font-size: 12px" value="ذخیره">
+            <span class="btn btn-danger" onclick="document.location.href = '   '">بازگشت</span>
+    <!-- </div> -->
+</body>
+<script src="ckeditor/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace('text');
+    CKEDITOR.inline();
+</script>
+
+</html>

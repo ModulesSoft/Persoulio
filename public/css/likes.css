@@ -1,0 +1,90 @@
+@font-face {
+    font-family: ghasem;
+    src: url('../fonts/ghasem.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSansWeb.ttf');
+}
+
+body{
+    font-family: IRANSans;
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+}
+
+/*over ride part*/
+.container-fluid{
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.add_padding{
+    padding: 15px;
+}
+
+.next_but{
+    width: 100%;
+    background-color: #32245f;
+    margin-bottom: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+
+/*top part og the page header*/
+.top_part{
+    font-family: ghasem;
+    background-color: #32245f;
+    height: 10vh;
+    text-align: center;
+    color: #f7f7f7;
+    padding: 10px;
+    font-size: 34px;
+    z-index: 2222222222222222;
+}
+
+
+.like_tiles{
+    background-color: #dddddd;
+    height: 15vw;
+    cursor: pointer;
+}
+
+.like_tiles h2{
+    padding-top: 7vw;
+}
+
+.like_tiles:hover{
+    /*background-color: #985f0d;*/
+    color: #f7f7f7;
+    font-weight: bold;
+}
+.like_tiles.active{
+    background-color: #ffc600 ;
+    color: #f7f7f7;
+}
+
+@media screen and (max-width: 768px) {
+    .col-xs-6{
+        padding-right: 0px;
+        padding-left: 5px;
+    }
+
+    .top_part{
+        height: 13vh;
+    }
+    .like_tiles{
+        height: 30vw;
+    }
+    .like_tiles h2{
+        padding-top: 14vw;
+        font-size: 4vw !important;
+    }
+
+}

@@ -1,0 +1,466 @@
+@font-face {
+    font-family: ghasem;
+    src: url('../fonts/ghasem.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSansWeb.ttf');
+}
+
+@font-face {
+    font-family: "B Yekan";
+    src: url('../fonts/Yekan.ttf');
+}
+
+body{
+    font-family: "B Yekan";
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.on{
+    display: none;
+}
+.container-fluid{
+    font-family: "B Yekan";
+    background-image: url("../images/desktop.jpg");
+    background-size: cover;
+    padding: 0;
+    height: 100vh;
+}
+.top_part{
+    margin-top: 5%;
+    border-top:solid #f7f7f7 1px;
+    border-bottom:solid #f7f7f7 1px;
+    height: 10em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 8%;
+}
+.top_part_2 h2{
+    margin: 0;
+    color: #f7f7f7;
+    font-size: 400%;
+}
+.top_part_2{
+    font-family: ghasem;
+    background-color: #9687a3;
+    height: 100%;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.user{
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.user{
+    width: 40vw;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+.user_1{
+    width: 100%;
+    height: 6.5vh;
+    direction: ltr;
+    color: #f7f7f7;
+    /*padding-right: 12vw;*/
+    background-color: rgba(50, 36, 95,0.4);
+    border: none;
+    border: solid #f7f7f7 2px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.user_2{
+    padding-right: 0%;
+}
+.user_logo{
+    position: absolute;
+    font-size: 30px;
+    top: 0%;
+    right: 0%;
+}
+
+.user_logo_2{
+    background-color: #ada6b8;
+    border-radius: 100%;
+    position: absolute;
+    font-size: 30px;
+    top: 5px;
+    right: 6px;
+    height:5vh;
+    width: 5vh;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.forget{
+    background-color: transparent;
+    border: none;
+    /*position: absolute;*/
+    /*top: 25%;*/
+    /*left: 2.5vh;*/
+    margin-top: 20px;
+    color: #dddddd;
+}
+.but{
+    width: 40vw;
+    margin: auto;
+}
+
+.but_1{
+    background-color: #ada6b6;
+    color: #ffffff;
+    border: none;
+    height:6.5vh;
+    width: 25%;
+    font-size: 15px;
+    border-radius: 50px;
+    border: solid #f7f7f7 1px;
+}
+.but_2{
+    background-color: #e0a53f;
+    color: #ffffff;
+    border: none;
+    height: 6.5vh;
+    width: 28.5vw;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 0.5vw;
+    border: solid #f7f7f7 1px;
+    float: right;
+}
+.down{
+    width: 100vw;
+    /*margin: auto;*/
+    text-align: center;
+    /*bottom: 4vh;*/
+    position: absolute;
+    margin-top: 5vh;
+}
+.down button{
+    background-color: transparent;
+    color: #e0a53f;
+    border: none;
+    height: 6vh;
+    width: 40vw;
+    font-size: 13px;
+    border-radius: 50px;
+    border: solid #e0a53f 1px;
+    font-family: "B Yekan";
+}
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: white !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: white !important;
+}
+
+input:-ms-input-placeholder {
+    color: white !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        font-family: "B Yekan";
+
+    }
+    .on{
+        display: block;
+    }
+    .container-fluid{
+        font-family: "B Yekan";
+        background-image: url("../images/phoneback.PNG");
+        background-size: cover;
+        padding: 0;
+        height: 100vh;
+    }
+    .off{
+        display: none;
+    }
+    .top_part{
+        margin-top: 15%;
+        border-top:solid #f7f7f7 1px;
+        border-bottom:solid #f7f7f7 1px;
+        height: 10em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 15%;
+    }
+    .top_part_2 h2{
+        margin: 0;
+        color: #f7f7f7;
+        font-size: 400%;
+    }
+    .top_part_2{
+        font-family: ghasem;
+        background-color: rgba(50, 36, 95,0.4);
+        height: 100%;
+        text-align: center;
+        padding-top: 5%;
+
+    }
+
+    .user{
+        width: 70vw;
+        margin: auto;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .user_1{
+        width: 100%;
+        height: 6.5vh;
+        direction: ltr;
+        color: #f7f7f7;
+        background-color: #706381;
+        border: none;
+        border: solid #f7f7f7 2px;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .user_2{
+        padding-right: 0%;
+    }
+
+    .user_logo{
+        position: absolute;
+        font-size: 30px;
+        top: 0%;
+        right: 0%;
+    }
+
+    .user_logo_2{
+        background-color: #ada6b8;
+        border-radius: 100%;
+        position: absolute;
+        font-size: 30px;
+        top: 5px;
+        right: 6px;
+        height:5vh;
+        width: 5vh;
+        text-align: center;
+        padding-top: 1vh;
+    }
+
+    .forget{
+        background-color: transparent;
+        border: none;
+        /*position: absolute;*/
+        /*top: 25%;*/
+        /*left: 2.5vh;*/
+        color: #dddddd;
+    }
+    .but{
+        width: 70vw;
+        margin: auto;
+    }
+
+    .but_1{
+        background-color: #ada6b6;
+        color: #ffffff;
+        border: none;
+        height:6.5vh;
+        width: 30%;
+        font-size: 15px;
+        border-radius: 50px;
+        border: solid #f7f7f7 1px;
+    }
+    .but_2{
+        background-color: #e0a53f;
+        color: #ffffff;
+        border: none;
+        height: 6.5vh;
+        width: 47vw;
+        font-size: 20px;
+        margin-left: 2vw;
+        border-radius: 50px;
+        border: solid #f7f7f7 1px;
+        float: right;
+    }
+    .down{
+        width: 100vw;
+        /*margin: auto;*/
+        text-align: center;
+        /*bottom: 4vh;*/
+        position: absolute;
+        margin-top: 2vh;
+    }
+    .down button{
+        background-color: transparent;
+        color: #e0a53f;
+        border: none;
+        height: 6vh;
+        width: 70vw;
+        font-size: 13px;
+        border-radius: 50px;
+        border: solid #e0a53f 1px;
+        font-family: "B Yekan";
+    }
+    input::-webkit-input-placeholder {
+        color: white !important;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+        color: white !important;
+    }
+
+    input::-moz-placeholder {  /* Firefox 19+ */
+        color: white !important;
+    }
+
+    input:-ms-input-placeholder {
+        color: white !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) and (max-height: 420px){
+    .container-fluid{
+        height: 150vh;
+    }
+    .top_part{
+        margin-top: 5%;
+        height: 5em;
+        margin-bottom: 5%;
+    }
+    .top_part_2 h2{
+        margin: 0;
+        color: #f7f7f7;
+        font-size: 200%;
+    }
+    .top_part_2{
+        font-family: ghasem;
+        background-color: rgba(50, 36, 95,0.4);
+        height: 100%;
+        text-align: center;
+        padding-top: 1%;
+
+    }
+    .user{
+        width: 70vw;
+        margin: auto;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .user_1{
+        width: 100%;
+        height: 15vh;
+        direction: ltr;
+        color: #f7f7f7;
+        background-color: #706381;
+        border: none;
+        border: solid #f7f7f7 2px;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .user_2{
+        padding-right: 18%;
+    }
+
+    .user_logo{
+        position: absolute;
+        font-size: 30px;
+        top: 0%;
+        right: 0%;
+        visibility:hidden;
+    }
+
+    .user_logo_2{
+        background-color: #ada6b8;
+        border-radius: 100%;
+        position: absolute;
+        font-size: 30px;
+        top: 5px;
+        right: 6px;
+        height:5vh;
+        width: 5vh;
+        text-align: center;
+        padding-top: 1vh;
+        visibility: hidden;
+    }
+
+    .forget{
+        background-color: transparent;
+        border: none;
+        /*position: absolute;*/
+        /*top: 25%;*/
+        /*left: 2.5vh;*/
+        /*color: #dddddd;*/
+        color: #d4d4d4;
+    }
+    .but{
+        width: 70vw;
+        margin: auto;
+    }
+
+    .but_1{
+        background-color: #ada6b6;
+        color: #ffffff;
+        border: none;
+        height:15vh;
+        width: 30%;
+        font-size: 15px;
+        border-radius: 50px;
+        border: solid #f7f7f7 1px;
+    }
+    .but_2{
+        background-color: #e0a53f;
+        color: #ffffff;
+        border: none;
+        height: 15vh;
+        width: 47vw;
+        font-size: 20px;
+        border-radius: 50px;
+        margin-left: 2vw;
+        border: solid #f7f7f7 1px;
+        float: right;
+    }
+    .down{
+        width: 100vw;
+        /*margin: auto;*/
+        text-align: center;
+        /*bottom: 4vh;*/
+        position: absolute;
+        margin-top: 6vh;
+    }
+    .down button{
+        background-color: transparent;
+        color: #e0a53f;
+        border: none;
+        height: 15vh;
+        width: 70vw;
+        font-size: 13px;
+        border-radius: 50px;
+        border: solid #e0a53f 1px;
+        font-family: "B Yekan";
+    }
+    input::-webkit-input-placeholder {
+        color: white !important;
+    }
+
+    input:-moz-placeholder { /* Firefox 18- */
+        color: white !important;
+    }
+
+    input::-moz-placeholder {  /* Firefox 19+ */
+        color: white !important;
+    }
+
+    input:-ms-input-placeholder {
+        color: white !important;
+    }
+
+}

@@ -1,0 +1,98 @@
+
+.introduction {
+    min-height: 40%;
+    margin-top: 30%;
+    max-height: 40%;
+}
+
+.introduction > h4{
+    text-align: justify;
+    color: #1e0035;
+    -webkit-margin-start: 30px !important;
+}
+
+.introduction > h5{
+    color: white;
+    text-align: justify;
+    -webkit-margin-start: 30px !important;
+}
+
+.startQuiz {
+    max-height: 10%;
+    min-height: 10%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.questionDiv {
+    height: 85vh;
+    margin-top: 10vh;
+    position: relative;
+}
+
+.questionDiv > h3 {
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 10px;
+    font-weight: bolder;
+    float: right
+}
+
+.question {
+    margin-top: 45%
+}
+
+.choices {
+    margin-top: 30%;
+}
+
+.percent {
+    position: fixed;
+    top: 18%;
+    left: 15%;
+    font-weight: bolder;
+    max-width: 5%;
+}
+
+.background {
+    background: url('../images/texture.jpg');
+}
+
+@media only screen and (min-width: 767px) {
+    .introduction {
+        min-height: 40% !important;
+        margin-top: 12% !important;
+        max-height: 40% !important;
+    }
+    .introduction > h5{
+        text-align: center !important;
+    }
+    .startQuiz {
+        margin-top: 5% !important;
+    }
+    .questionDiv {
+        max-height: 300px !important;
+        margin-top: 10px !important;
+    }
+    .questionDiv > h3 {
+        position: relative; !important;
+        margin-top: 0 !important;
+    }
+    .question, .choices {
+        margin-top: 0 !important;
+    }
+    .percent {
+        top: 5%; !important;
+    }
+    .background {
+        background: url('../images/bigTexture.jpg') !important;
+    }
+    .totalPane {
+        padding: 20%;
+        padding-top: 100px;
+    }
+    .choices {
+        padding: 228px;
+        padding-top: 7%;
+    }
+}
